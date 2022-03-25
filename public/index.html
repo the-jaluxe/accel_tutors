@@ -27,6 +27,10 @@
     />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+
+    
+
+    
   </head>
   <body id="page-top">
     <!-- Navigation-->
@@ -44,9 +48,14 @@
             </li>
             -->
             <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
             </li>
-            <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
@@ -65,7 +74,7 @@
       </div>
     </header>
     <!-- Services-->
-    <section class="page-section bg-light" id="services">
+    <section class="page-section" id="services">
       <div class="container">
         <div class="text-center">
           <h2 class="section-heading text-uppercase">Tutoring Services</h2>
@@ -113,182 +122,206 @@
         </div>
       </div>
     </section>
-    <!--
-    TODO: Put testimonials here
-    <section class="page-section bg-light" id="portfolio">
+    
+
+    <!-- Carousel wrapper -->
+    <section class="page-section bg-light" id="testimonials">
+
+      <div class="text-center">
+        <h2 class="section-heading text-uppercase">Testimonials</h2>
+        <h3 class="section-subheading text-muted">
+          Hear some of the stellar reviews that our clients have said
+        </h3>
+      </div>
+  <div
+  id="carouselMultiItem"
+  class="carousel slide carousel-dark text-center"
+  data-mdb-ride="carousel"
+  >
+
+  <!-- Inner -->
+  <div class="carousel-inner py-4">
+    <!-- Single item -->
+    <div class="carousel-item active">
       <div class="container">
-        <div class="text-center">
-          <h2 class="section-heading text-uppercase">Portfolio</h2>
-          <h3 class="section-subheading text-muted">
-            Lorem ipsum dolor sit amet consectetur.
-          </h3>
-        </div>
         <div class="row">
-          <div class="col-lg-4 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a
-                class="portfolio-link"
-                data-bs-toggle="modal"
-                href="#portfolioModal1"
-              >
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content">
-                    <i class="fas fa-plus fa-3x"></i>
-                  </div>
-                </div>
-                <img
-                  class="img-fluid"
-                  src="assets/img/portfolio/1.jpg"
-                  alt="..."
-                />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Threads</div>
-                <div class="portfolio-caption-subheading text-muted">
-                  Illustration
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-4">
+            <h5 class="mb-3">Isaac</h5>
+            <p>3 lessons with Jarrett</p>
+            <p class="text-muted">
+              <i class="fas fa-quote-left pe-2"></i>
+              Great Tutor! He was able to get my son back on track. 
+              Went from a failing grade on this last test to a B on 
+              his current test. Thanks.
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+            </ul>
           </div>
-          <div class="col-lg-4 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a
-                class="portfolio-link"
-                data-bs-toggle="modal"
-                href="#portfolioModal2"
-              >
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content">
-                    <i class="fas fa-plus fa-3x"></i>
-                  </div>
-                </div>
-                <img
-                  class="img-fluid"
-                  src="assets/img/portfolio/2.jpg"
-                  alt="..."
-                />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Explore</div>
-                <div class="portfolio-caption-subheading text-muted">
-                  Graphic Design
-                </div>
-              </div>
-            </div>
+  
+          <div class="col-lg-4 d-none d-lg-block">
+            <h5 class="mb-3">Trinh</h5>
+            <p>10 lessons with Jarrett</p>
+            <p class="text-muted">
+              <i class="fas fa-quote-left pe-2"></i>
+              Good Tutor! Jarrett is very patient and very well in 
+              explaining the problems Andrew has . He is a great tutor 
+              and Andrew is very happy to have Jarrett as his tutor. Thank you so much for your help.
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+            </ul>
           </div>
-          <div class="col-lg-4 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a
-                class="portfolio-link"
-                data-bs-toggle="modal"
-                href="#portfolioModal3"
-              >
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content">
-                    <i class="fas fa-plus fa-3x"></i>
-                  </div>
-                </div>
-                <img
-                  class="img-fluid"
-                  src="assets/img/portfolio/3.jpg"
-                  alt="..."
-                />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Finish</div>
-                <div class="portfolio-caption-subheading text-muted">
-                  Identity
-                </div>
-              </div>
-            </div>
+  
+          <div class="col-lg-4 d-none d-lg-block">
+            <h5 class="mb-3">Priya</h5>
+            <p>3 lessons with Jarrett</p>
+            <p class="text-muted">
+              <i class="fas fa-quote-left pe-2"></i>
+              Excellent Tutor! Jarrett was amazing and helped my son with issues he was having understanding arrays for his AP Computer Science class. He jumped in last minute to help out. Highly recommend him!
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+            </ul>
           </div>
-          <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-            <div class="portfolio-item">
-              <a
-                class="portfolio-link"
-                data-bs-toggle="modal"
-                href="#portfolioModal4"
-              >
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content">
-                    <i class="fas fa-plus fa-3x"></i>
-                  </div>
-                </div>
-                <img
-                  class="img-fluid"
-                  src="assets/img/portfolio/4.jpg"
-                  alt="..."
-                />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Lines</div>
-                <div class="portfolio-caption-subheading text-muted">
-                  Branding
-                </div>
-              </div>
-            </div>
+
+          
+        </div>
+      </div>
+    </div>
+  
+    <!-- Single item -->
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h5 class="mb-3">Niza</h5>
+            <p>7 lessons with Jarrett</p>
+            <p class="text-muted">
+              <i class="fas fa-quote-left pe-2"></i>
+              Highly recommended! Jarrett was super helpful, patient and knowledgeable. My son was able to get his AP Computer Science homework and project done with his help. We already booked more sessions with him! Thank you Jarrett! 
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+            </ul>
           </div>
-          <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-            <div class="portfolio-item">
-              <a
-                class="portfolio-link"
-                data-bs-toggle="modal"
-                href="#portfolioModal5"
-              >
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content">
-                    <i class="fas fa-plus fa-3x"></i>
-                  </div>
-                </div>
-                <img
-                  class="img-fluid"
-                  src="assets/img/portfolio/5.jpg"
-                  alt="..."
-                />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Southwest</div>
-                <div class="portfolio-caption-subheading text-muted">
-                  Website Design
-                </div>
-              </div>
-            </div>
+  
+          <div class="col-lg-4 d-none d-lg-block">
+            <h5 class="mb-3">Rachelle</h5>
+            <p>3 lessons with Jarrett</p>
+            <p class="text-muted">
+              <i class="fas fa-quote-left pe-2"></i>
+              Excellent teacher and support for AP Computer Science! Jarrett is very patient and helped me with many homework corrections for AP Computer Science. He took the time to carefully explain the processes and I really have a good understanding of how to do the work now. I highly recommend him.
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+            </ul>
           </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="portfolio-item">
-              <a
-                class="portfolio-link"
-                data-bs-toggle="modal"
-                href="#portfolioModal6"
-              >
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content">
-                    <i class="fas fa-plus fa-3x"></i>
-                  </div>
-                </div>
-                <img
-                  class="img-fluid"
-                  src="assets/img/portfolio/6.jpg"
-                  alt="..."
-                />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Window</div>
-                <div class="portfolio-caption-subheading text-muted">
-                  Photography
-                </div>
-              </div>
-            </div>
+  
+          <div class="col-lg-4 d-none d-lg-block">
+            <h5 class="mb-3">Nilima</h5>
+            <p>5 lessons with Jarrett</p>
+            <p class="text-muted">
+              <i class="fas fa-quote-left pe-2"></i>
+              Patient and knowledgeable tutor. An excellent tutor. He is helping my son with his AP Computer Science A class. He makes the more difficult concepts understandable. My son is very happy working with Jarrett. 
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+            </ul>
           </div>
         </div>
       </div>
-    </section>
-    -->
+    </div>
+  
+    <!-- Single item -->
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h5 class="mb-3">Xiaoli</h5>
+            <p>8 lessons with Jarrett</p>
+            <p class="text-muted">
+              <i class="fas fa-quote-left pe-2"></i>
+              Jarrett helped my daughters for her AP computer class. He explained very tricky concepts by showing her how to do it from the beginning to the end. It takes a lot of patience. The lesson went great. Will definitely use him again.
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+            </ul>
+          </div>
+  
+          <div class="col-lg-4 d-none d-lg-block">
+            <h5 class="mb-3">Mona</h5>
+            <p>15 lessons with Jarrett</p>
+            <p class="text-muted">
+              <i class="fas fa-quote-left pe-2"></i>
+              My daughter says he explains the concepts very well for computer science class. He was able to clear up any issues she had with understanding some fundamental concepts and also ensured she practiced many problems to get comfortable with the topic.
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+            </ul>
+          </div>
+  
+          <div class="col-lg-4 d-none d-lg-block">
+            <h5 class="mb-3">Jim</h5>
+            <p>2 lessons with Jarrett</p>
+            <p class="text-muted">
+              <i class="fas fa-quote-left pe-2"></i>
+              Better than could have imagined. He explained everything perfectly and directly in line with the AP unit information. We will definitely be reaching out to Jarrett on a more regular "proactive" schedule. I cannot thank you enough for what you did.
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Inner -->
+  </div>
+  <!-- Carousel wrapper -->
+  </section>
+    
     <!-- About-->
     <section class="page-section" id="about">
       <div class="container">
         <div class="text-center">
-          <h2 class="section-heading text-uppercase">How To Start</h2>
+          <h2 class="section-heading text-uppercase">How Do I Start?</h2>
           <h3 class="section-subheading text-muted">
             Learn about the steps to arrange a tutoring session.
           </h3>
@@ -308,8 +341,9 @@
               </div>
               <div class="timeline-body">
                 <p class="text-muted">
-                  Using the form below to get in contact with me and schedule your first session. 
-                  Feel free to include available times, subjects needed, and the session length in your message.
+                  Either send an email to the address listed below or sign up for an account 
+                  on Wyzant to schedule your first session. Feel free to include available times, 
+                  subjects needed, and the session length in your message.
                 </p>
               </div>
             </div>
@@ -324,14 +358,14 @@
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h4 class="subheading">Personal Contact</h4>
+                <h4 class="subheading">Session Details</h4>
               </div>
               <div class="timeline-body">
                 <p class="text-muted">
                   I will personally reach out to confirm any details about the
-                  session. If you require any special requests for your session,
-                  please feel free to let me know and I will be sure to
-                  accommodate.
+                  session either through email or Wyzant. If you need any 
+                  special requests, please feel free to let me know 
+                  and I will be sure to accomodate.
                 </p>
               </div>
             </div>
@@ -350,7 +384,7 @@
               </div>
               <div class="timeline-body">
                 <p class="text-muted">
-                  Using online tutoring technologies, I will set up a session
+                  Using the Wyzant online platform, I will set up a session
                   for you to join. I have experience using different methods of
                   teaching that are most effective for the content you need help
                   with.
@@ -363,18 +397,18 @@
               <img
                 class="rounded-circle img-fluid"
                 src="assets/img/about/8.jpg"
-                alt="..."
+                alt="Paper airplane"
               />
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h4 class="subheading">Satisfaction Guaranteed</h4>
+                <h4 class="subheading">Finished!</h4>
               </div>
               <div class="timeline-body">
                 <p class="text-muted">
-                  Your first one hour session is free to guarantee that you are
-                  happy with my services. If you need additional help, I can
-                  arrange repeating sessions based on your schedule.
+                  You were able to finish that homework assignment or ace that difficult test 
+                  so it's time to celebrate. After finishing your 
+                  first session, we can arrange repeating sessions based on your schedule.
                 </p>
               </div>
             </div>
@@ -382,7 +416,7 @@
           <li class="timeline-inverted">
             <div class="timeline-last-image">
               <img
-                src="../assets/img/accel-logo-mascot-big.png"
+                src="assets/img/accel-logo-mascot-big.png"
                 class="img-fluid"
               />
             </div>
@@ -421,9 +455,9 @@
               Starting in high school, I took AP Computer Science A as a freshman and thoroughly enjoyed every part of it. 
               With my natural talent in math and inspiration from this class, I would go on to take numerous honors and AP 
               courses throughout high school including AP Calculus and AP statisics with a 4.32 overall GPA. Then, I went on 
-              to major in Computer Science at UC San Diego while recently graduating this past summer with a 3.64 GPA. I have 
-              experience tutoring throughout my academics and I enjoy every part of making difficult concepts in math and 
-              computer science very easy and engaging for all ages.
+              to major in Computer Science at UC San Diego while recently graduating with a 3.64 GPA. I have 
+              experience tutoring throughout my academics and enjoy making concepts in math and 
+              computer science very easy and engaging for everyone to understand.
             </p>
           </div>
         </div>
@@ -439,10 +473,28 @@
           </h3>
         </div>
         <div class="text-center">
-          <h2 class="section-heading text-uppercase">Please email me at</h2>
-          <h2 class="section-heading text-uppercase">contact.accel.tutors@gmail.com</h2>
-          <h2 class="section-heading text-uppercase"> to arrange a lesson. Thanks!</h2>
+          <h1 class="section-heading text-uppercase">Please email me at</h1>
+          <h1><a target="_blank" rel="noopener noreferrer" href = "mailto: jarrett@acceltutors.com">jarrett@acceltutors.com</a></h1>
+          <h2 class="section-heading text-uppercase">OR</h2>
+          <h1 class="section-heading text-uppercase">Sign up for an account on</h1>
+          <h1><a target="_blank" rel="noopener noreferrer" href = "https://is.gd/9J9XDf">Wyzant</a></h1>
         </div>
+      </div>
+  </section>
+      <section class="page-section bg-light" id="course">
+        <div class="container">
+          <div class="text-center">
+            <h2 class="section-heading text-uppercase">Want a self-paced review course?</h2>
+            <h3 class="section-subheading text-muted">
+              Includes review videos, coding exercises, quizzes, and a practice AP Computer Science exam.
+            </h3>
+          </div>
+          <div class="text-center">
+            <h1 class="section-heading text-uppercase">Check out my new AP Computer Science review course on</h1>
+            <h1><a target="_blank" rel="noopener noreferrer" href = "https://www.udemy.com/course/ap-computer-science-a-java-concepts-and-fundamentals/?referralCode=729147BB9513889EB831">Udemy</a></h1>
+          </div>
+      </section>
+      
           
         <!-- * * * * * * * * * * * * * * *-->
         <!-- * * SB Forms Contact Form * *-->
@@ -451,14 +503,13 @@
         <!-- To make this form functional, sign up at-->
         <!-- https://startbootstrap.com/solution/contact-forms-->
         <!-- to get an API token!-->
-        
-    </section>
+
     <!-- Footer-->
     <footer class="footer py-4">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-4 text-lg-start">
-            Copyright &copy; Accel Tutors 2021
+            Copyright &copy; Accel Tutors 2022
           </div>
           <div class="col-lg-4 my-3 my-lg-0">
             <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/AccelTutors" target="_blank"
@@ -826,14 +877,23 @@
         </div>
       </div>
     </div>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JQuery & Bootstrap core JS-->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
     <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.carousel').carousel({
+          interval: 8000
+        })
+      });
+    </script>
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <!-- * *                               SB Forms JS                               * *-->
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
   </body>
 </html>
