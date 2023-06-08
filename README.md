@@ -1,2 +1,2 @@
 # accel_tutors
-Website for Accel Tutors
+Old repo for Accel Tutors website. Replaced with [Byte Scholars](https://github.com/the-jaluxe/byte-scholars)
